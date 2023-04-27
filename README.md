@@ -1,22 +1,16 @@
-# SQLAlchemy-Challenge
-
-# Unit 10 Homework: Surf’s Up
-
-# Before You Begin
+# Climate Analysis
 
 
-Create a new repository for this project called sqlalchemy-challenge. Do not add this homework to an existing repository.
+Created a new repository for this project called Climate Analysis.
 
 
 Clone the new repository to your computer.
 
 
-Add your Jupyter notebook and app.py to this folder. These will be the main scripts to run for analysis.
+Added Jupyter notebook and app.py to this folder. These will be the main scripts to run for analysis.
 
 
-Push the changes to GitHub or GitLab.
-
-
+Pushed the changes to GitHub or GitLab.
 
 
 # Instructions
@@ -26,7 +20,7 @@ Part 1: Climate Analysis and Exploration
 In this section, you’ll use Python and SQLAlchemy to perform basic climate analysis and data exploration of your climate database. Complete the following tasks by using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
-Use the provided starter notebook and hawaii.sqlite files to complete your climate analysis and data exploration.
+Use the hawaii.sqlite files to complete your climate analysis and data exploration.
 
 
 Use SQLAlchemy’s create_engine to connect to your SQLite database.
@@ -38,7 +32,7 @@ Use SQLAlchemy’s automap_base() to reflect your tables into classes and save a
 Link Python to the database by creating a SQLAlchemy session.
 
 
-Important: Don't forget to close out your session at the end of your notebook.
+Don't forget to close out your session at the end of your notebook.
 
 
 
@@ -88,33 +82,19 @@ Which station id has the highest number of observations?
 Using the most active station id, calculate the lowest, highest, and average temperatures.
 
 
-Hint: You will need to use functions such as func.min, func.max, func.avg, and func.count in your queries.
-
-
-
-
 Design a query to retrieve the previous 12 months of temperature observation data (TOBS).
 
 
 Filter by the station with the highest number of observations.
 
-
 Query the previous 12 months of temperature observation data for this station.
-
 
 Plot the results as a histogram with bins=12, as shown in the following image:
 
-
-
-
-
 Close out your session.
 
-
-
-
 # Part 2: Design Your Climate App
-Now that you have completed your initial analysis, you’ll design a Flask API based on the queries that you have just developed.
+Design a Flask API based on the queries that you have just developed.
 Use Flask to create your routes, as follows:
 
 
